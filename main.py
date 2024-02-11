@@ -1,5 +1,7 @@
 import streamlit as st
 from PIL import Image
+from pillow_heif import HeifImagePlugin
+import pillow_heif
 import io
 import base64
 
