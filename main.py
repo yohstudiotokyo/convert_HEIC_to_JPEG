@@ -15,8 +15,8 @@ def convert_heic_to_jpeg(heic_bytes):
 
                 # サイズを半分にする
                 width, height = img.size
-                new_width = width // 2
-                new_height = height // 2
+                new_width = width // 4
+                new_height = height // 4
                 img = img.resize((new_width, new_height))
 
                 # Exif情報を取得
